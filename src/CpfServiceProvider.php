@@ -4,7 +4,7 @@ namespace ValidationCPF;
 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
-use ValidationCPF\Validation\CpfValidation;
+use ValidationCPF\Validate\CpfValidation;
 
 class CpfServiceProvider extends ServiceProvider
 {
