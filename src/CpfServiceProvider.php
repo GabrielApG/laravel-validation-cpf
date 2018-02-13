@@ -48,7 +48,7 @@ class CpfServiceProvider extends ServiceProvider
     public function validationCpf()
     {
         Validator::extend('cpf', function ($attribute, $value, $parameters, $validator) {
-            return (new CpfValidation($value))->validarCpf();
+            return (new CpfValidation($value))->validateCpf();
         }, config('cpf.message'));
     }
 
