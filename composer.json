@@ -1,0 +1,25 @@
+{
+    "name": "gabrielapg/validador-cpf-laravel",
+    "description": "Validation CPF support in your Laravel application version Laravel 5.4",
+    "keywords": ["laravel", "cpf", "validationCpf"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Ap. G",
+            "email": "gabrielstigma@yahoo.com.br"
+        }
+    ],
+    "require": {
+      "php": ">=5.5.9"
+    },
+   "autoload": {
+     "psr-4": {
+       "ValidationCPF\\": "src/"
+     },
+     "classmap": [
+       "tests"
+     ]
+   },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
