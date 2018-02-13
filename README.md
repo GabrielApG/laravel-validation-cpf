@@ -5,7 +5,7 @@
 ## Composer required
 
 ```
-composer require gabrielapg/laravel-validation-cpf
+composer require "gabrielapg/validador-cpf-laravel @dev"
 ```
 
 ### Register your provider
