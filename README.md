@@ -67,3 +67,7 @@ $this->validate($request, [
     'cpf' => 'cpf',
 ]);
 ```
+
+### References fork
+###### This package is an original fork of:
+[jailtonsc/validador-cpf-laravel](https://github.com/jailtonsc/validador-cpf-laravel)
